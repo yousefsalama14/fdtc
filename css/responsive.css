@@ -39,7 +39,7 @@
         padding-bottom: 0;
     }
     .header-section .navbar-brand {
-        height: 80px;
+        /* height: 80px; */
         padding: 0;
         display: flex;
         align-items: center;
@@ -168,6 +168,9 @@
     .page-header {
         height: 250px;
     }
+    .page-header .overlay-shape-left{
+        display: none;
+    }
     .page-content h2 {
         font-size: 24px;
         line-height: 36px;
@@ -236,7 +239,7 @@
         border-radius: 90px 90px 0 0;
     }
     .widget-section.widget-3{
-        background-color: #fff4dc;
+        /* background-color: #fff4dc; */
         background-image: inherit;
     }
     .footer-2 .footer-social li {
